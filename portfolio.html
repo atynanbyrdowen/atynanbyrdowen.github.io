@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
     <meta charset="utf-8">
     <meta description="Personal Website of Al Tynan-Byrd-Owen">
     <title>Portfolio</title>
   </head>
-<body background="airplane.png"  align="center" style="font-family:Arial;color:black">
-  <h1>Al's Portfolio Page</h1>
-  <video width="400" controls>
-  <source src="Reel.mov" type="video/mov">
+  <style>
+  h3 {
+    color: #272343
+  }
 
-  Your browser does not support HTML video.
-</video><br>
-<img src="image/guilt.png" alt="women sitting on couch with a shadow in background, words 'writer - guilt'" height="200px">
-<img src="image/jive.png" alt="sound - Jump, Jive, Duck and Dive" height="200px">
-<img src="image/paradox.png" alt="sound - Archer's Paradox" height="200px">
+  #navbar a:hover {
+      color:#e3f6f5;
+      text-decoration: underline;
+      }
+  </style>
+<body background="airplane.png">
+
+  <div id="navbar">
+  	<a href="index.html">Home</a>
+    <a href="#AM">About Me</a>
+  	<a href="portfolio.html">Portfolio</a>
+  	<a href="#CM">Contact Me</a>
+  </div>
+
+  <section id="content">
+    <h1 style="font-family:avenir, cambria, ariel;color:#272343">Al's Portfolio Page</h1>
+<img src="image/guilt.png" alt="women sitting on couch with a shadow in background, words 'writer - guilt'" height="200px" class="image">
+<img src="image/jive.png" alt="sound - Jump, Jive, Duck and Dive" height="200px" class="image">
+<img src="image/paradox.png" alt="sound - Archer's Paradox"  class="image">
 <p style="background-color:white" >Here are some screenshot from my demo reel as well as the reel itself which was
   made several years ago if you're interested in what
-  I've been doing more recently,<br> feel free to download my resume.</p>
-  <a href="resume.pdf" target="_blank"><img src="image/resume.png" height="100px"></a><br><br><br>
+  I've been doing more recently, check out some of the labs I've done this semester.</p>
+ <img src="image/sword.png" alt="sword and shield with fire" class="gimp">
+  <img src="image/sprite.png" alt="turtle swimming" class="gimp">
+   <img src="image/sprite8bit.png" alt="canada loves hockey" class="gimp">
+
+  <br><p> For more about me feel free to download my resume.</p>
+  <a href="resume.pdf" download><img src="image/resume.png" height="100px"></a><br><br><br>
 
 
   <a href="index.html">Return to Home</a>
-
+  </section>
 </body>
